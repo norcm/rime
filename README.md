@@ -48,7 +48,7 @@ ln -sf /Users/cuixinpeng/Projects/me/rime/configuration ~/Library/Rime
    set plum_dir=%PROJECT_DIR%\plum
    set rime_dir=%PROJECT_DIR%\rime\configuration
    ```
-2. 设置 `PROJECT_DIR`
+2. 设置 `PROJECT_DIR`环境变量
 
    `PROJECT_DIR` 的值需要能让脚本找到plum仓库。
 
