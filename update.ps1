@@ -45,11 +45,6 @@ if (-not (Test-Path -LiteralPath $PlumInstaller)) {
     throw "rime-install.bat not found: $PlumInstaller"
 }
 
-$WeaselDeployer = Join-Path $env:WEASEL_DIR 'WeaselDeployer.exe'
-if (-not (Test-Path -LiteralPath $WeaselDeployer)) {
-    throw "WeaselDeployer.exe not found: $WeaselDeployer"
-}
-
 Invoke-ExternalCommand -FilePath $PlumInstaller -ArgumentList @('iDvel/rime-ice:others/recipes/full')
 Invoke-WebRequest -Uri $GramUrl -OutFile $GramFile
 
@@ -73,7 +68,7 @@ if ($OldRows.Count -gt 0) {
     $VersionLines += $OldRows | Select-Object -First 9
 }
 
-Set-Content -LiteralPath $VersionFile -Value $VersionLines -Encoding UTF8
+Set-Content -LiteralPath $VersionFile -Value $VersionLines -Encoding utf8
 
 if (Test-Path -LiteralPath $DeleteFilesList) {
     Get-Content -LiteralPath $DeleteFilesList |
@@ -102,4 +97,3 @@ if ($GitStatus) {
     Invoke-ExternalCommand -FilePath 'git' -ArgumentList @('-C', $RepoDir, 'push', 'origin', $CurrentBranch)
 }
 
-Invoke-ExternalCommand -FilePath $WeaselDeployer
