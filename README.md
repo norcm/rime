@@ -41,9 +41,16 @@ ln -sf /Users/cuixinpeng/Projects/me/rime/configuration ~/Library/Rime
    ```shell
    git clone --depth=1 https://github.com/rime/plum
    ```
+
+   > windows下需要先更新rime-install-config.bat文件中的设置
+   
+   ```
+   set plum_dir=%PROJECT_DIR%\plum
+   set rime_dir=%PROJECT_DIR%\rime\configuration
+   ```
 2. 设置 `PROJECT_DIR`
 
-   `PROJECT_DIR` 的值需要能让脚本找到 `other/plum`。
+   `PROJECT_DIR` 的值需要能让脚本找到plum仓库。
 
 3. macOS 执行 `update.sh`
 
