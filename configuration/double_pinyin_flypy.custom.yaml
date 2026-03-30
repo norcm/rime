@@ -1,0 +1,17 @@
+patch:
+  translator/preedit_format: [] # 显示双拼编码
+  switches/@2:
+    name: traditionalization
+    states: [ 简, 繁 ]
+    reset: 0
+#  engine/filters/+:
+#    - lua_filter@is_in_user_dict # 用户词典中的候选词后面加*标识
+  speller/algebra/+:
+    - abbrev/^(.).+$/$1/ # 开启超级简拼
+  grammar:
+    language: wanxiang-lts-zh-hans
+    collocation_max_length: 5
+    collocation_min_length: 2
+  translator/contextual_suggestions: true
+  translator/max_homophones: 7
+  translator/max_homographs: 7

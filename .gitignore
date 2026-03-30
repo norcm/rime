@@ -1,0 +1,13 @@
+.idea
+build
+rime_ice.userdb
+*/en_dicts/cn_en_abc.txt
+*/en_dicts/cn_en_double_pinyin.txt
+*/en_dicts/cn_en_mspy.txt
+*/en_dicts/cn_en_sogou.txt
+*/en_dicts/cn_en_ziguang.txt
+.temp*
+wanxiang-lts-zh-hans.gram
+luna_pinyin.userdb
+user.yaml
+configuration/installation.yaml

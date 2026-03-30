@@ -1,0 +1,39 @@
+patch:
+  # 倸用此方法導入配置, 請確認已經在倉APP中「重置界面設置」
+  # 如果使用過倉内置編輯器的編輯或導入功能, 則此處配置會被覆盖
+  keyboard/colorSchemas:
+    # 導入配色方案
+    __include: hamster_custom_keyboards:/colorSchemas
+  keyboards:
+    # 導入鍵盤佈局
+    __include: hamster_custom_keyboards:/keyboards
+  # 启动内嵌模式
+  keyboard/enableEmbeddedInputMode: true
+  # 双击空格输入句号
+  keyboard/enableInputPeriodBySpaceDoubleTap: false
+  # 字体放大或缩小
+  keyboard/fontSizeScale: 8.0
+  # 显示按键气泡
+  keyboard/displayButtonBubbles: false
+  # 启用按键声
+  keyboard/enableKeySounds: false
+  # 启用触控反馈
+  keyboard/enableHapticFeedback: true
+  # 按键震动反馈强度：1 = 弱，2 = 中，3 = 强
+  keyboard/hapticFeedbackIntensity: 1
+  # 按键震动强度微调，用于微调 `hapticFeedbackIntensity` 级别
+  # 值在 0.0 ~ 1 之间
+  keyboard/hapticIntensity: 0.8
+  # 使用键盘类型:
+  # chinese: 中文26键
+  # chineseNineGrid: 中文九宫格
+  # 自定义键盘填写自定义键盘配置中的 name 的值。如: `useKeyboardType: 大千注音`
+  keyboard/useKeyboardType: chinese26
+  # 默认打开数字键盘：
+  # 默认为数字九宫格 numericNineGrid
+  # 如果希望使用自己的数字键盘，请直接填写键盘名称，如：大千注音
+  defaultNumericKeyboard: number9
+  # 工具栏总高度
+  toolbar/heightOfToolbar: 45
+  # 候选文字字体大小
+  toolbar/candidateTextFontSize: 27

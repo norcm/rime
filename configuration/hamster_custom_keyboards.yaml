@@ -1,0 +1,1636 @@
+colorSchemas:
+  - schemaName: wechat_light
+    name: 微信键盘浅色
+    author: 古罗
+    back_color: "0x1ED8D3D0"
+    button_back_color: "0xFEFCFC"
+    button_pressed_back_color: "0xEBEBEB"
+    button_bubble_back_color: "0xD0D0D0"
+    button_foreground_color: "0x000000"
+    button_pressed_foreground_color: "0x000000"
+    button_swipe_foreground_color: "0x000000"
+    button_swipe_pressed_foreground_color: "0x000000"
+    corner_radius: 8
+    border_color: "0x01000000"
+    border_size: 1
+    text_color: "0x444444"
+    lower_edge_color: "0x000000"
+    shadow_color: "0x000000"
+    shadow_size: 0
+    hilited_candidate_back_color: "0xFBFAF9"
+    hilited_candidate_text_color: "0x66AC18"
+    hilited_candidate_label_color: "0x66AC18"
+    hilited_comment_text_color: "0x66AC18"
+    candidate_text_color: "0x424242"
+    comment_text_color: "0x999999"
+    label_color: "0x000000"
+    hilited_callout_back_color: "0xFBFAF9"
+    hilited_callout_foreground_color: "0x66AC18"
+    action_callout_back_color: "0xD0D0D0"
+  - schemaName: wechat_dark
+    name: 微信键盘深色
+    author: 古罗
+    back_color: "0x1E2C2C2C"
+    button_back_color: "0x656565"
+    button_pressed_back_color: "0x707070"
+    button_bubble_back_color: "0xD0D0D0"
+    button_foreground_color: "0xFDFDFD"
+    button_pressed_foreground_color: "0xFFFFFF"
+    button_swipe_foreground_color: "0xFFFFFF"
+    button_swipe_pressed_foreground_color: "0x000000"
+    corner_radius: 8
+    border_color: "0x01000000"
+    border_size: 1
+    text_color: "0x7A7A7A"
+    lower_edge_color: "0x000000"
+    shadow_color: "0x000000"
+    shadow_size: 0
+    hilited_candidate_back_color: "0x676767"
+    hilited_candidate_text_color: "0x8EE600"
+    hilited_candidate_label_color: "0x8EE600"
+    hilited_comment_text_color: "0x8EE600"
+    candidate_text_color: "0xFEFEFE"
+    comment_text_color: "0xAEAEAE"
+    label_color: "0xFEFEFE"
+    hilited_callout_back_color: "0x676767"
+    hilited_callout_foreground_color: "0x8EE600"
+    action_callout_back_color: "0xD0D0D0"
+keyboards:
+  - name: chinese26
+    isPrimary: true
+    rows:
+      - keys:
+          - action:
+              character:
+                char: q
+            width: available
+            label: Q
+            swipe:
+              - action:
+                  symbol:
+                    char: "1"
+                label: "1"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: w
+            width: available
+            label: W
+            swipe:
+              - action:
+                  symbol:
+                    char: "2"
+                label: "2"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: e
+            width: available
+            label: E
+            swipe:
+              - action:
+                  symbol:
+                    char: "3"
+                label: "3"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: r
+            width: available
+            label: R
+            swipe:
+              - action:
+                  symbol:
+                    char: "4"
+                label: "4"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: t
+            width: available
+            label: T
+            swipe:
+              - action:
+                  symbol:
+                    char: "5"
+                label: "5"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: y
+            width: available
+            label: Y
+            swipe:
+              - action:
+                  symbol:
+                    char: "6"
+                label: "6"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: u
+            width: available
+            label: U
+            swipe:
+              - action:
+                  symbol:
+                    char: "7"
+                label: "7"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: i
+            width: available
+            label: I
+            swipe:
+              - action:
+                  symbol:
+                    char: "8"
+                label: "8"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: o
+            width: available
+            label: O
+            swipe:
+              - action:
+                  symbol:
+                    char: "9"
+                label: "9"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: p
+            width: available
+            label: P
+            swipe:
+              - action:
+                  symbol:
+                    char: "0"
+                label: "0"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+      - keys:
+          - action: none
+            width:
+              percentage: 0.05
+            label:
+              text: ""
+          - action:
+              character:
+                char: a
+            width: available
+            label: A
+            swipe:
+              - action:
+                  symbol:
+                    char: "`"
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: s
+            width: available
+            label: S
+            swipe:
+              - action:
+                  symbol:
+                    char: "-"
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: d
+            width: available
+            label: D
+            swipe:
+              - action:
+                  symbol:
+                    char: _
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: f
+            width: available
+            label: F
+            swipe:
+              - action:
+                  symbol:
+                    char: "~"
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: g
+            width: available
+            label: G
+            swipe:
+              - action:
+                  symbol:
+                    char: "%"
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: h
+            width: available
+            label: H
+            swipe:
+              - action:
+                  symbol:
+                    char: "*"
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: j
+            width: available
+            label: J
+            swipe:
+              - action:
+                  symbol:
+                    char: /
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: k
+            width: available
+            label: K
+            swipe:
+              - action:
+                  symbol:
+                    char: "&"
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: l
+            width: available
+            label: L
+            swipe:
+              - action:
+                  symbol:
+                    char: ¥
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action: none
+            width:
+              percentage: 0.05
+            label:
+              text: ""
+      - keys:
+          - action: shift
+            width:
+              percentage: 0.13
+            label:
+              text: ""
+            lightModeStyleName: other_light
+            darkModeStyleName: other_dark
+          - action: none
+            width:
+              percentage: 0.02
+            label:
+              text: ""
+          - action:
+              character:
+                char: z
+            width: available
+            label: Z
+            swipe:
+              - action:
+                  symbol:
+                    char: '"'
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: x
+            width: available
+            label: X
+            swipe:
+              - action:
+                  symbol:
+                    char: "@"
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: c
+            width: available
+            label: C
+            swipe:
+              - action:
+                  symbol:
+                    char: ","
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: v
+            width: available
+            label: V
+            swipe:
+              - action:
+                  symbol:
+                    char: .
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: b
+            width: available
+            label: B
+            swipe:
+              - action:
+                  symbol:
+                    char: ":"
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: n
+            width: available
+            label: N
+            swipe:
+              - action:
+                  symbol:
+                    char: ;
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: m
+            width: available
+            label: M
+            swipe:
+              - action:
+                  symbol:
+                    char: "?"
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action: none
+            width:
+              percentage: 0.02
+            label:
+              text: ""
+          - action: backspace
+            width:
+              percentage: 0.13
+            label:
+              text: ""
+            swipe:
+              - action:
+                  shortcutCommand: "#重输"
+                label:
+                  text: ""
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  shortcutCommand: "#重输"
+                label:
+                  text: ""
+                display: true
+                processByRIME: true
+                direction: left
+            lightModeStyleName: other_light
+            darkModeStyleName: other_dark
+      - keys:
+          - action:
+              keyboardType: number9
+            width:
+              portrait: available
+              landscape:
+                percentage: 0.2
+            label: "123"
+            lightModeStyleName: other_light
+            darkModeStyleName: other_dark
+          - action:
+              keyboardType: classifySymbolic
+            width:
+              portrait:
+                percentage: 0.1
+              landscape:
+                percentage: 0.08
+            label: "#?"
+            lightModeStyleName: other_light
+            darkModeStyleName: other_dark
+          - action:
+              character:
+                char: ，
+            width:
+              portrait:
+                percentage: 0.1
+              landscape:
+                percentage: 0.08
+            label:
+              text: ""
+            swipe:
+              - action:
+                  character:
+                    char: 。
+                label: 。
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action: space
+            width:
+              percentage: 0.35
+            label:
+              text: " "
+              loadingText: " "
+            swipe:
+              - action:
+                  shortcutCommand: "#简繁切换"
+                label:
+                  text: ""
+                display: false
+                processByRIME: true
+                direction: down
+            lightModeStyleName: space_light
+            darkModeStyleName: space_dark
+          - action:
+              keyboardType: alpha26
+            width: available
+            label: abc
+            lightModeStyleName: other_light
+            darkModeStyleName: other_dark
+          - action: enter
+            width:
+              portrait:
+                percentage: 0.18
+              landscape:
+                percentage: 0.2
+            label:
+              systemImageName: return
+            swipe:
+              - action:
+                  shortcutCommand: "#换行"
+                label:
+                  text: ""
+                display: true
+                processByRIME: true
+                direction: down
+            lightModeStyleName: enter_light
+            darkModeStyleName: enter_dark
+    buttonInsets:
+      left: 2
+      bottom: 2
+      top: 2
+      right: 2
+    keyStyle:
+      abc_light: &a5
+        name: abc_light
+        buttonBackgroundColor: "0xFEFCFC"
+        pressedButtonBackgroundColor: "0xEBEBEB"
+        buttonForegroundColor: "0x000000"
+        pressedButtonForegroundColor: "0x000000"
+        swipeForegroundColor: "0x000000"
+        pressedSwipeForegroundColor: "0x000000"
+        buttonBubbleBackgroundColor: "0xD0D0D0"
+        cornerRadius: 6
+        borderSize: 1
+        borderColor: "0x01000000"
+        lowerEdgeColor: "0x5A000000"
+        shadowColor: "0x000000"
+        shadowSize: 0
+        fontSize: 20
+      abc_dark: &a6
+        name: abc_dark
+        buttonBackgroundColor: "0x656565"
+        pressedButtonBackgroundColor: "0x929292"
+        buttonForegroundColor: "0xFCFCFC"
+        pressedButtonForegroundColor: "0xFCFCFC"
+        swipeForegroundColor: "0xFCFCFC"
+        pressedSwipeForegroundColor: "0xFCFCFC"
+        buttonBubbleBackgroundColor: "0xD0D0D0"
+        cornerRadius: 6
+        borderSize: 1
+        borderColor: "0x01000000"
+        lowerEdgeColor: "0x01000000"
+        shadowColor: "0x01000000"
+        shadowSize: 0
+        fontSize: 20
+      other_light: &a1
+        name: other_light
+        buttonBackgroundColor: "0xC4BCB7"
+        pressedButtonBackgroundColor: "0xFEFCFC"
+        buttonForegroundColor: "0xDC000000"
+        pressedButtonForegroundColor: "0x000000"
+        swipeForegroundColor: "0x000000"
+        pressedSwipeForegroundColor: "0x000000"
+        buttonBubbleBackgroundColor: "0xD0D0D0"
+        cornerRadius: 6
+        borderSize: 0
+        borderColor: "0x000000"
+        lowerEdgeColor: "0x5F000000"
+        shadowColor: "0x000000"
+        shadowSize: 0
+      other_dark: &a2
+        name: other_dark
+        buttonBackgroundColor: "0x3C3C3C"
+        pressedButtonBackgroundColor: "0x656565"
+        buttonForegroundColor: "0xFFFFFF"
+        pressedButtonForegroundColor: "0xFFFFFF"
+        swipeForegroundColor: "0xFFFFFF"
+        pressedSwipeForegroundColor: "0xFFFFFF"
+        buttonBubbleBackgroundColor: "0xD0D0D0"
+        cornerRadius: 6
+        borderSize: 0
+        borderColor: "0x000000"
+        lowerEdgeColor: "0x5F000000"
+        shadowColor: "0x000000"
+        shadowSize: 0
+      space_light: &a7
+        name: space_light
+        buttonBackgroundColor: "0xFEFCFC"
+        pressedButtonBackgroundColor: "0xC3BBB6"
+        buttonForegroundColor: "0x000000"
+        pressedButtonForegroundColor: "0x000000"
+        swipeForegroundColor: "0x000000"
+        pressedSwipeForegroundColor: "0x000000"
+        buttonBubbleBackgroundColor: "0xD0D0D0"
+        cornerRadius: 6
+        borderSize: 1
+        borderColor: "0x01000000"
+        lowerEdgeColor: "0x5A000000"
+        shadowColor: "0x000000"
+        shadowSize: 0
+        fontSize: 18
+      space_dark: &a8
+        name: space_dark
+        buttonBackgroundColor: "0x656565"
+        pressedButtonBackgroundColor: "0x3C3C3C"
+        buttonForegroundColor: "0x000000"
+        pressedButtonForegroundColor: "0x000000"
+        swipeForegroundColor: "0x000000"
+        pressedSwipeForegroundColor: "0x000000"
+        buttonBubbleBackgroundColor: "0xD0D0D0"
+        cornerRadius: 6
+        borderSize: 1
+        borderColor: "0x01000000"
+        lowerEdgeColor: "0x5A000000"
+        shadowColor: "0x000000"
+        shadowSize: 0
+        fontSize: 18
+      enter_light: &a3
+        name: enter_light
+        buttonBackgroundColor: "0x75B100"
+        pressedButtonBackgroundColor: "0xFEFCFC"
+        buttonForegroundColor: "0xDCFFFFFF"
+        pressedButtonForegroundColor: "0x000000"
+        swipeForegroundColor: "0x000000"
+        pressedSwipeForegroundColor: "0x000000"
+        buttonBubbleBackgroundColor: "0xD0D0D0"
+        cornerRadius: 6
+        borderSize: 0
+        borderColor: "0x000000"
+        lowerEdgeColor: "0x5F000000"
+        shadowColor: "0x000000"
+        shadowSize: 0
+      enter_dark: &a4
+        name: enter_dark
+        buttonBackgroundColor: "0x75B100"
+        pressedButtonBackgroundColor: "0x656565"
+        buttonForegroundColor: "0xFFFFFF"
+        pressedButtonForegroundColor: "0xFFFFFF"
+        swipeForegroundColor: "0xFFFFFF"
+        pressedSwipeForegroundColor: "0xFFFFFF"
+        buttonBubbleBackgroundColor: "0xD0D0D0"
+        cornerRadius: 6
+        borderSize: 0
+        borderColor: "0x000000"
+        lowerEdgeColor: "0x5F000000"
+        shadowColor: "0x000000"
+        shadowSize: 0
+  - name: number9
+    isPrimary: false
+    rows:
+      - keys:
+          - action:
+              symbol:
+                char: +
+            processByRIME: false
+            width:
+              portrait:
+                percentage: 0.18
+              landscape:
+                percentage: 0.16
+            label:
+              text: ""
+            lightModeStyleName: other_light
+            darkModeStyleName: other_dark
+          - action:
+              character:
+                char: "1"
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: number_light
+            darkModeStyleName: number_dark
+          - action:
+              character:
+                char: "2"
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: number_light
+            darkModeStyleName: number_dark
+          - action:
+              character:
+                char: "3"
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: number_light
+            darkModeStyleName: number_dark
+          - action: backspace
+            width:
+              portrait:
+                percentage: 0.18
+              landscape:
+                percentage: 0.16
+            label:
+              text: ""
+            swipe:
+              - action:
+                  shortcutCommand: "#重输"
+                label:
+                  text: ""
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  shortcutCommand: "#重输"
+                label:
+                  text: ""
+                display: true
+                processByRIME: true
+                direction: left
+            lightModeStyleName: other_light
+            darkModeStyleName: other_dark
+      - keys:
+          - action:
+              symbol:
+                char: "-"
+            processByRIME: false
+            width:
+              portrait:
+                percentage: 0.18
+              landscape:
+                percentage: 0.16
+            label:
+              text: ""
+            lightModeStyleName: other_light
+            darkModeStyleName: other_dark
+          - action:
+              character:
+                char: "4"
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: number_light
+            darkModeStyleName: number_dark
+          - action:
+              character:
+                char: "5"
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: number_light
+            darkModeStyleName: number_dark
+          - action:
+              character:
+                char: "6"
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: number_light
+            darkModeStyleName: number_dark
+          - action:
+              symbol:
+                char: .
+            processByRIME: false
+            width:
+              portrait:
+                percentage: 0.18
+              landscape:
+                percentage: 0.16
+            label:
+              text: ""
+            lightModeStyleName: other_light
+            darkModeStyleName: other_dark
+      - keys:
+          - action:
+              symbol:
+                char: =
+            processByRIME: false
+            width:
+              portrait:
+                percentage: 0.18
+              landscape:
+                percentage: 0.16
+            label:
+              text: ""
+            lightModeStyleName: other_light
+            darkModeStyleName: other_dark
+          - action:
+              character:
+                char: "7"
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: number_light
+            darkModeStyleName: number_dark
+          - action:
+              character:
+                char: "8"
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: number_light
+            darkModeStyleName: number_dark
+          - action:
+              character:
+                char: "9"
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: number_light
+            darkModeStyleName: number_dark
+          - action:
+              symbol:
+                char: "@"
+            processByRIME: false
+            width:
+              portrait:
+                percentage: 0.18
+              landscape:
+                percentage: 0.16
+            label: "@"
+            lightModeStyleName: other_light
+            darkModeStyleName: other_dark
+      - keys:
+          - action:
+              keyboardType: chinese26
+            width:
+              portrait:
+                percentage: 0.18
+              landscape:
+                percentage: 0.16
+            label: 返回
+            lightModeStyleName: number_other_light
+            darkModeStyleName: number_other_dark
+          - action:
+              keyboardType: classifySymbolic
+            processByRIME: false
+            width: available
+            label: "#?"
+            lightModeStyleName: number_other_light
+            darkModeStyleName: number_other_dark
+          - action:
+              character:
+                char: "0"
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: number_light
+            darkModeStyleName: number_dark
+          - action: space
+            processByRIME: false
+            width: available
+            label: 空格
+            lightModeStyleName: number_other_light
+            darkModeStyleName: number_other_dark
+          - action: enter
+            width:
+              portrait:
+                percentage: 0.18
+              landscape:
+                percentage: 0.16
+            label:
+              text: ""
+            swipe:
+              - action:
+                  shortcutCommand: "#换行"
+                label:
+                  text: ""
+                display: true
+                processByRIME: true
+                direction: down
+            lightModeStyleName: enter_light
+            darkModeStyleName: enter_dark
+    buttonInsets:
+      left: 3
+      bottom: 3
+      top: 3
+      right: 3
+    keyStyle:
+      other_light: *a1
+      other_dark: *a2
+      number_light:
+        name: number_light
+        buttonBackgroundColor: "0xFEFCFC"
+        pressedButtonBackgroundColor: "0xEBEBEB"
+        buttonForegroundColor: "0x000000"
+        pressedButtonForegroundColor: "0x000000"
+        swipeForegroundColor: "0x000000"
+        pressedSwipeForegroundColor: "0x000000"
+        buttonBubbleBackgroundColor: "0xD0D0D0"
+        cornerRadius: 8
+        borderSize: 0
+        borderColor: "0x000000"
+        lowerEdgeColor: "0x3C000000"
+        shadowColor: "0x000000"
+        shadowSize: 0
+        fontSize: 19
+      number_dark:
+        name: number_dark
+        buttonBackgroundColor: "0x656565"
+        pressedButtonBackgroundColor: "0x707070"
+        buttonForegroundColor: "0xFFFFFF"
+        pressedButtonForegroundColor: "0xFFFFFF"
+        swipeForegroundColor: "0xFFFFFF"
+        pressedSwipeForegroundColor: "0xFFFFFF"
+        buttonBubbleBackgroundColor: "0xD0D0D0"
+        cornerRadius: 8
+        borderSize: 0
+        lowerEdgeColor: "0xB9000000"
+        shadowColor: "0x000000"
+      number_other_light:
+        name: number_other_light
+        buttonBackgroundColor: "0xFEFCFC"
+        pressedButtonBackgroundColor: "0xEBEBEB"
+        buttonForegroundColor: "0x000000"
+        pressedButtonForegroundColor: "0x000000"
+        swipeForegroundColor: "0x000000"
+        pressedSwipeForegroundColor: "0x000000"
+        buttonBubbleBackgroundColor: "0xD0D0D0"
+        cornerRadius: 8
+        borderSize: 0
+        borderColor: "0x000000"
+        lowerEdgeColor: "0x3C000000"
+        shadowColor: "0x000000"
+        shadowSize: 0
+        fontSize: 14
+      number_other_dark:
+        name: number_other_dark
+        buttonBackgroundColor: "0x656565"
+        pressedButtonBackgroundColor: "0x707070"
+        buttonForegroundColor: "0xFFFFFF"
+        pressedButtonForegroundColor: "0xFFFFFF"
+        swipeForegroundColor: "0xFFFFFF"
+        pressedSwipeForegroundColor: "0xFFFFFF"
+        buttonBubbleBackgroundColor: "0xD0D0D0"
+        cornerRadius: 8
+        borderSize: 0
+        borderColor: "0x000000"
+        lowerEdgeColor: "0xB9000000"
+        shadowColor: "0x000000"
+        shadowSize: 0
+        fontSize: 14
+      enter_light: *a3
+      enter_dark: *a4
+  - name: alpha26
+    isPrimary: false
+    rows:
+      - keys:
+          - action:
+              character:
+                char: q
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: "1"
+                label: "1"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: w
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: "2"
+                label: "2"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: e
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: "3"
+                label: "3"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: r
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: "4"
+                label: "4"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: t
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: "5"
+                label: "5"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: y
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: "6"
+                label: "6"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: u
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: "7"
+                label: "7"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: i
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: "8"
+                label: "8"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: o
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: "9"
+                label: "9"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: p
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: "0"
+                label: "0"
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+      - keys:
+          - action: none
+            width:
+              percentage: 0.05
+            label:
+              text: ""
+          - action:
+              character:
+                char: a
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: "`"
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: s
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: "-"
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: d
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: _
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: f
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: "~"
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: g
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: "%"
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: h
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: "*"
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: j
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: /
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: k
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: "&"
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: l
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: "#"
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action: none
+            width:
+              percentage: 0.05
+            label:
+              text: ""
+      - keys:
+          - action: shift
+            width:
+              percentage: 0.13
+            label:
+              text: ""
+            lightModeStyleName: other_light
+            darkModeStyleName: other_dark
+          - action: none
+            width:
+              percentage: 0.02
+            label:
+              text: ""
+          - action:
+              character:
+                char: z
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: '"'
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: x
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: "@"
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: c
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: "|"
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: v
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: (
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: b
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: ":"
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: n
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: ;
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action:
+              character:
+                char: m
+            processByRIME: false
+            width: available
+            label:
+              text: ""
+            swipe:
+              - action:
+                  symbol:
+                    char: "?"
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action: none
+            width:
+              percentage: 0.02
+            label:
+              text: ""
+          - action: backspace
+            width:
+              percentage: 0.13
+            label:
+              text: ""
+            swipe:
+              - action:
+                  shortcutCommand: "#重输"
+                label:
+                  text: ""
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  shortcutCommand: "#重输"
+                label:
+                  text: ""
+                display: true
+                processByRIME: true
+                direction: left
+            lightModeStyleName: other_light
+            darkModeStyleName: other_dark
+      - keys:
+          - action:
+              keyboardType: number9
+            width:
+              portrait: available
+              landscape:
+                percentage: 0.2
+            label: "123"
+            lightModeStyleName: other_light
+            darkModeStyleName: other_dark
+          - action:
+              keyboardType: classifySymbolic
+            width:
+              portrait:
+                percentage: 0.1
+              landscape:
+                percentage: 0.08
+            label: "#?"
+            lightModeStyleName: other_light
+            darkModeStyleName: other_dark
+          - action:
+              character:
+                char: .
+            processByRIME: false
+            width:
+              portrait:
+                percentage: 0.1
+              landscape:
+                percentage: 0.08
+            label:
+              text: ""
+            swipe:
+              - action:
+                  character:
+                    char: ","
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: abc_light
+            darkModeStyleName: abc_dark
+          - action: space
+            width:
+              percentage: 0.35
+            label:
+              text: " "
+              loadingText: " "
+            swipe:
+              - action:
+                  shortcutCommand: "#简繁切换"
+                label:
+                  text: ""
+                display: false
+                processByRIME: true
+                direction: down
+            lightModeStyleName: space_light
+            darkModeStyleName: space_dark
+          - action:
+              keyboardType: chinese26
+            width: available
+            label: 中
+            lightModeStyleName: other_light
+            darkModeStyleName: other_dark
+          - action: enter
+            width:
+              portrait:
+                percentage: 0.18
+              landscape:
+                percentage: 0.2
+            label:
+              systemImageName: return
+            swipe:
+              - action:
+                  shortcutCommand: "#换行"
+                label:
+                  text: ""
+                display: true
+                processByRIME: true
+                direction: down
+            lightModeStyleName: enter_light
+            darkModeStyleName: enter_dark
+    buttonInsets:
+      left: 2
+      bottom: 2
+      top: 2
+      right: 2
+    keyStyle:
+      abc_light: *a5
+      abc_dark: *a6
+      other_light: *a1
+      other_dark: *a2
+      space_light: *a7
+      space_dark: *a8
+      enter_light: *a3
+      enter_dark: *a4

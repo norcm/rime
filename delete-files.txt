@@ -1,0 +1,13 @@
+double_pinyin.schema.yaml
+double_pinyin_abc.schema.yaml
+double_pinyin_mspy.schema.yaml
+double_pinyin_sogou.schema.yaml
+double_pinyin_ziguang.schema.yaml
+double_pinyin_jiajia.schema.yaml
+t9.schema.yaml
+en_dicts/cn_en_abc.txt
+en_dicts/cn_en_double_pinyin.txt
+en_dicts/cn_en_mspy.txt
+en_dicts/cn_en_sogou.txt
+en_dicts/cn_en_ziguang.txt
+en_dicts/cn_en_jiajia.txt
