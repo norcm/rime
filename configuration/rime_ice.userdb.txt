@@ -17989,7 +17989,7 @@ she zhi 	设置	c=128 d=2.20217 t=248805
 she zhi cheng 	设置成	c=1 d=0.546075 t=248805
 she zhi le 	设置了	c=1 d=5.22401e-09 t=248805
 she zhi xia 	设置下	c=1 d=0.970446 t=248805
-she zhi zhong 	设置中	c=1 d=1 t=248771
+she zhi zhong 	设置中	c=1 d=0.843665 t=248805
 shei fa 	谁发	c=1 d=0.0177743 t=248805
 shen 	审	c=0 d=5.35535e-08 t=248805
 shen 	深	c=4 d=0.000197455 t=248805
@@ -25055,7 +25055,7 @@ yong guo 	用过	c=12 d=0.243635 t=248805
 yong guo mei 	用过没	c=1 d=0.0441572 t=248805
 yong hu 	用户	c=118 d=2.01161 t=248805
 yong hu cao zuo 	用户操作	c=1 d=1.35055e-06 t=248805
-yong hu ci dian 	用户词典	c=1 d=1 t=248789
+yong hu ci dian 	用户词典	c=1 d=0.923116 t=248805
 yong hu fa qi 	用户发起	c=1 d=0.65377 t=248805
 yong hu fu wu 	用户服务	c=1 d=0.618783 t=248805
 yong hu lai 	用户来	c=1 d=1.58515e-08 t=248805
@@ -25927,7 +25927,7 @@ yuan yi dian 	远一点	c=1 d=1.81896e-09 t=248805
 yuan yin 	原因	c=103 d=1.16852 t=248805
 yuan yin Z 	原因Z	c=1 d=5.39612e-08 t=248805
 yuan you 	原有	c=4 d=0.946599 t=248805
-yuan yu 	源于	c=1 d=1 t=248757
+yuan yu 	源于	c=1 d=0.786628 t=248805
 yuan yu ming 	原域名	c=1 d=0.00130703 t=248805
 yuan ze 	原则	c=2 d=6.49645e-07 t=248805
 yuan zi 	原子	c=2 d=0.479505 t=248805

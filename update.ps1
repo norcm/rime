@@ -40,7 +40,7 @@ if (-not $env:WEASEL_DIR) {
     throw 'WEASEL_DIR environment variable is required.'
 }
 
-$PlumInstaller = Join-Path $env:PROJECT_DIR 'other\plum\rime-install.bat'
+$PlumInstaller = Join-Path $env:PROJECT_DIR 'plum\rime-install.bat'
 if (-not (Test-Path -LiteralPath $PlumInstaller)) {
     throw "rime-install.bat not found: $PlumInstaller"
 }
