@@ -52,6 +52,9 @@ patch:
     com.googlecode.iterm2:
       ascii_mode: true
       ascii_punct: true
+    com.mitchellh.ghostty:
+      ascii_mode: true
+      ascii_punct: true
     me.qii404.another-redis-desktop-manager:
       ascii_mode: true
       ascii_punct: true
