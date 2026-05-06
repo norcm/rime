@@ -7,6 +7,7 @@ $GramFile = Join-Path $ConfigurationDir 'wanxiang-lts-zh-hans.gram'
 $VersionFile = Join-Path $RepoDir 'version.md'
 $DeleteFilesList = Join-Path $RepoDir 'delete-files.txt'
 $GramUrl = 'https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram'
+$GramProxy = 'http://127.0.0.1:1081'
 
 function Invoke-ExternalCommand {
     param(
@@ -46,7 +47,7 @@ if (-not (Test-Path -LiteralPath $PlumInstaller)) {
 }
 
 Invoke-ExternalCommand -FilePath $PlumInstaller -ArgumentList @('iDvel/rime-ice:others/recipes/full')
-Invoke-WebRequest -Uri $GramUrl -OutFile $GramFile
+Invoke-WebRequest -Uri $GramUrl -OutFile $GramFile -Proxy $GramProxy
 
 $CurrentTime = Get-Date -Format 'yyyy-MM-dd HH:mm:ss'
 $CurrentMd5 = (Get-FileHash -LiteralPath $GramFile -Algorithm MD5).Hash.ToLowerInvariant()
@@ -96,4 +97,3 @@ if ($GitStatus) {
     Invoke-ExternalCommand -FilePath 'git' -ArgumentList @('-C', $RepoDir, 'commit', '-m', 'update')
     Invoke-ExternalCommand -FilePath 'git' -ArgumentList @('-C', $RepoDir, 'push', 'origin', $CurrentBranch)
 }
-
